@@ -19,7 +19,6 @@ public class ConstructBtree2 {
 		root = buildTree(postOrder, inOrderstr, 0, inOrderstr.length - 1);
 		printPostOrder(root);
 	}
-
 	private static Node buildTree(int[] postOrder, int[] inOrderstr, int start, int end) {
 		Node root;
 		if (start > end) {

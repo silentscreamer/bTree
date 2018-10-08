@@ -20,7 +20,6 @@ public class ConstructBTree1 {
 		root = buildTree(preOrder, inOrderstr, 0, inOrderstr.length - 1);
 		printPreOrder(root);
 	}
-
 	private static void printPreOrder(Node root2) {
 		if (root2 != null) {
 			System.out.print(root2.data + " , ");
