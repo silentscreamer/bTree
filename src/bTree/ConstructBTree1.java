@@ -41,7 +41,6 @@ public class ConstructBTree1 {
 		root.right = buildTree(preOrder, inOrderstr, iIn + 1, end);
 		return root;
 	}
-
 	static int search(int value, int start, int end, int[] inOrderstr) {
 		for (int i = start; i <= end; i++) {
 			if (value == inOrderstr[i]) {

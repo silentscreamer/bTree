@@ -42,9 +42,7 @@ public class ConstructBtree2 {
 			printPostOrder(root2.right);
 			System.out.print(root2.data + " , ");
 		}
-
 	}
-
 	// searching value from post order in in order array
 
 	private static int search(int[] inOrder, int start, int end, int value) {
