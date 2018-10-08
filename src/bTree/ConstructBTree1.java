@@ -10,7 +10,6 @@ package bTree;
  */
 
 public class ConstructBTree1 {
-
 	static int i = 0;
 	private static Node root;
 

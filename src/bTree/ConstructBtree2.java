@@ -1,4 +1,5 @@
 package bTree;
+
 /*
  * 
  * @Author Saquib Ali
@@ -11,9 +12,7 @@ package bTree;
 public class ConstructBtree2 {
 	static int i = 0;
 	private static Node root;
-
 	public static void main(String[] args) {
-
 		int inOrderstr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 		int postOrder[] = { 1, 3, 2, 5, 4, 7, 10, 9, 8, 6 };
 		i = postOrder.length - 1;
@@ -31,7 +30,7 @@ public class ConstructBtree2 {
 		if (start == end) {
 			return root;
 		}
-		//iIn is index of inorder
+		// iIn is index of inorder
 		root.right = buildTree(postOrder, inOrderstr, iIn + 1, end);
 		root.left = buildTree(postOrder, inOrderstr, start, iIn - 1);
 		return root;
@@ -46,8 +45,8 @@ public class ConstructBtree2 {
 		}
 
 	}
-	
-	//searching value from post order in in order array
+
+	// searching value from post order in in order array
 
 	private static int search(int[] inOrder, int start, int end, int value) {
 		for (int i = start; i <= end; i++) {
