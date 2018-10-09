@@ -20,14 +20,14 @@ public class ConstructBTree1 {
 		root = buildTree(preOrder, inOrderstr, 0, inOrderstr.length - 1);
 		printPreOrder(root);
 	}
-	private static void printPreOrder(Node root2) {
+	public static void printPreOrder(Node root2) {
 		if (root2 != null) {
 			System.out.print(root2.data + " , ");
 			printPreOrder(root2.left);
 			printPreOrder(root2.right);	
 		}
 	}
-	private static Node buildTree(int[] preOrder, int[] inOrderstr, int start, int end) {
+	public static Node buildTree(int[] preOrder, int[] inOrderstr, int start, int end) {
 		Node root;
 		if (start > end) {
 			return null;
