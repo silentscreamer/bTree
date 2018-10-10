@@ -2,7 +2,7 @@
 
 Repositry contains most of the solved programmes of Binary Tree in java.
 
-Content:
+# Content:
 1). Construct a tree given its in order and pre order traversal string.
 2). Construct a tree given its in order and post order traversal string.
 3). Delete node from BST.
