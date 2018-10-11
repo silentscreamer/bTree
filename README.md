@@ -16,3 +16,5 @@ Repositry contains most of the solved programmes of Binary Tree in java.
 6). Bredth first traversal using user Queue.
 
 7). Create complete B Tree.
+
+8).if a binary tree is complete or not.

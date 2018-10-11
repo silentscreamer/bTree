@@ -14,7 +14,7 @@ public class CompleteBtree {
     Node root = createCompleteBtree(inOrderstr, 0);
   }
 
-  private static Node createCompleteBtree(int[] inOrderstr, int start) {
+  public static Node createCompleteBtree(int[] inOrderstr, int start) {
     int size = inOrderstr.length;
     Node curr = new Node(inOrderstr[start]);
     int left = 2 * start + 1;
