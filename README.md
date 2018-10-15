@@ -1,6 +1,6 @@
 # bTree
 
-Repositry contains most of the solved programmes of Binary Tree in java.
+Repository contains most of the solved programs of Binary Tree in java.
 
 # Content:
 1). Construct a tree given its in order and pre order traversal string.
