@@ -11,12 +11,12 @@ Repository contains most of the solved programs of Binary Tree in java.
 
 4). Depth first traversal using user stack.
 
-5). Bredth first traversal using system stack.
+5). Breadth first traversal using system stack.
 
-6). Bredth first traversal using user Queue.
+6). Breadth first traversal using user Queue.
 
 7). Create complete B Tree.
 
-8).if a binary tree is complete or not.
+8). If a binary tree is complete or not.
 
 9). Top view of tree up to n level.
