@@ -18,3 +18,5 @@ Repositry contains most of the solved programmes of Binary Tree in java.
 7). Create complete B Tree.
 
 8).if a binary tree is complete or not.
+
+9). Top view of tree up to n level.
