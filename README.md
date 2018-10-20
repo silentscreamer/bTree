@@ -20,3 +20,5 @@ Repository contains most of the solved programs of Binary Tree in java.
 8). If a binary tree is complete or not.
 
 9). Top view of tree up to n level.
+
+10).Full Binary Tree.
